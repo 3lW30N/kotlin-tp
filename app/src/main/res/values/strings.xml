@@ -6,4 +6,6 @@
     <string name="client_gender_man">Homme</string>
     <string name="client_gender_woman">Femme</string>
     <string name="add_client_form_age">Âge</string>
+
+    <string name="home_add_button">Ajouter un client</string>
 </resources>
