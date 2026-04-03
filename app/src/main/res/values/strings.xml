@@ -5,4 +5,5 @@
     <string name="add_client_form_gender">Sexe</string>
     <string name="client_gender_man">Homme</string>
     <string name="client_gender_woman">Femme</string>
+    <string name="add_client_form_age">Âge</string>
 </resources>
