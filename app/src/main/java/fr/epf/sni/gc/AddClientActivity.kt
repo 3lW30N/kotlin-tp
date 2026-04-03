@@ -1,5 +1,6 @@
 package fr.epf.sni.gc
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -32,8 +33,11 @@ class AddClientActivity : AppCompatActivity() {
                 "Homme"
             }
             Log.d(TAG, "Genre: ${gender}")
-            Toast.makeText(this, "Super !", Toast.LENGTH_SHORT).show()
             Log.d(TAG, "Nom: ${lastnameEditText.text}")
+
+            Toast.makeText(this, "Super !", Toast.LENGTH_SHORT).show()
+
+            finish()
         }
 
         val ageTextView = findViewById<TextView>(R.id.add_client_form_age_textview)
