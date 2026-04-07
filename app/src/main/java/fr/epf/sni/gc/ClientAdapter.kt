@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import fr.epf.sni.gc.model.Client
 import fr.epf.sni.gc.model.Gender
 
-class ClientViewHolder() : RecyclerView.ViewHolder()
+class ClientViewHolder(view: View) : RecyclerView.ViewHolder(view)
 
 class ClientAdapter(val clients: List<Client>) : RecyclerView.Adapter<ClientViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, p1: Int): ClientViewHolder {
