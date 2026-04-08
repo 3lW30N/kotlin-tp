@@ -1,7 +1,5 @@
 package fr.epf.sni.gc.model
 
-import android.view.inspector.InspectionCompanion
-
 enum class Gender { MAN, WOMAN }
 
 data class Client (
