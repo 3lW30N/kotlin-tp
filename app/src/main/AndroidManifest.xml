@@ -12,10 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GestionClient">
         <activity
+            android:name=".ListClientsActivity"
+            android:exported="true" />
+        <activity
             android:name=".DetailsClientActivity"
             android:exported="false" />
         <activity
-            android:name=".AddClientActivity"
+            android:name=".HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,11 +27,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ListClientsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".HomeActivity"
-            android:exported="true">
+            android:name=".AddClientActivity"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
